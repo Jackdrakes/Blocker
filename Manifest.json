@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name":"obscene blocker",
+    "description": "This t4 extension blocking some sites for example  youtube, facebook, netflix, instagram. The same mechanism is to be appliied to the pornographic sites too",
+    "version": "1.0",
+    
+    
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+
+            "js": ["content.js"],
+            "run_at": "document_end",
+            "type":"module"
+        }
+    ],
+
+    "host_permissions": ["<all_urls>"],
+
+    "permissions" : ["tabs", "activetabs", "tabgroups"],
+    "web_accessible_resources": [
+        { "resources": ["bg.js"], "type":"module" ,"matches": ["<all_urls>"] }
+    
+      ]
+
+
+}
