@@ -12,9 +12,10 @@ git clone https://github.com/Jackdrakes/t4.git websiteBlockerExtension
 ```
 chrome://extensions/
 ```
-### The following window appears
+> The following window appears
 ![Enabling Developer Mode](https://github.com/Jackdrakes/ReadMe-Files/blob/main/Blocker/enbling.png)
-### Click Load Unpacked in the top-left corner
+> Enable the developer tools
+> Click Load Unpacked in the top-left corner
 ![Load Unpacked](https://github.com/Jackdrakes/ReadMe-Files/blob/main/Blocker/load_unpacked.png)
 
 > Select the websiteBlockerExtension folder
